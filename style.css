@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#container {
+    margin: 2vh 2vw;
+    /* border: 2px solid red; */
+}
+
+#output {
+    font-family: 'Roboto Mono', monospace;
+    color: lightblue;
+    font-size: 2rem;
+    /* border: 2px solid blue; */
+    padding: 5px 8px;
+    margin: 0 0 0 3vw;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topRow{
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    width: 20vw;
+    background-color: rgb(199, 255, 199);
+    height: 13vh;
+    margin: 1vh 1vw;
+    border: 2px solid rgb(0, 92, 20);
+    border-radius: 5px;  
+}
+
+#zero { 
+    width: 42vw;
+    height: 13vh;
+}
